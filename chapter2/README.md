@@ -67,3 +67,7 @@
     e. What is the number of threads that execute the code on line 04? 
     
     > `200000`
+
+10. . A new summer intern was frustrated with CUDA. He has been complaining that CUDA is very tedious. He had to declare many functions that he plans to execute on both the host and the device twice, once as a host function and once as a device function. What is your response?
+
+    > `You can use the __host__ __device__ specifier to declare a function that can be executed on both the host and the device.`
